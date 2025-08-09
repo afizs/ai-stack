@@ -1,13 +1,10 @@
-# Iris Classifier
+A tiny scikit-learn code example.
 
-A tiny scikit-learn demo.
+```python
+{% include "../../code/ml/iris-classifier/iris.py" %}
+```
 
-- **View code**: https://github.com/afizs/ai-stack/tree/main/code/ml/iris-classifier
-- **Run locally**:
-  ```bash
-  uv run python code/ml/iris-classifier/iris.py
-  ```
-
-```codeinclude
-code/ml/iris-classifier/iris.py
+#### Run locally:
+```bash
+uv run python code/ml/iris-classifier/iris.py
 ```

@@ -16,12 +16,12 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: dracula
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
+      primary: deep purple
+      accent: deep purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
@@ -30,6 +30,7 @@ theme:
       accent: lime
 plugins:
   - search
+  - include-markdown
   - git-revision-date-localized:
       enable_creation_date: true
       enable_git_follow: false
@@ -39,6 +40,9 @@ plugins:
         python:
           options:
             show_source: false  # Disable showing source code
+  - mkdocs-jupyter:
+      execute: True
+      include_source: True
 markdown_extensions:
   - admonition
   - toc:
@@ -54,6 +58,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.tasklist
   - attr_list
 nav:
   - Home: index.md
