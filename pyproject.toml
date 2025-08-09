@@ -9,4 +9,5 @@ dependencies = [
     "mkdocs-codeinclude-plugin>=0.2.1",
     "mkdocs-git-revision-date-localized-plugin>=1.4.7",
     "mkdocs-material>=9.6.16",
+    "mkdocstrings[python]>=0.30.0",
 ]

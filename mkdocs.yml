@@ -7,22 +7,54 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - content.code.copy
     - toc.integrate
+    - navigation.top
+    - search.suggest
     - search.highlight
-    - content.action.edit        # adds “Edit this page” links
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
 plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_git_follow: false
   - codeinclude                  # optional; include code directly into docs
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false  # Disable showing source code
 markdown_extensions:
+  - admonition
   - toc:
       permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.mark
+  - attr_list
 nav:
   - Home: index.md
   # - Notes: 10-notes/README.md
@@ -30,6 +62,7 @@ nav:
   # - Snippets: 30-snippets/README.md
   - Projects:
       - Iris Classifier: projects/iris-classifier.md
+      - Mini ChatGPT: projects/mini-chatgpt.md
       # - Agentic RAG: projects/agentic-rag.md
   # - Machine Learning:
   #     - Model Zoo: 50-ml/model-zoo.md
