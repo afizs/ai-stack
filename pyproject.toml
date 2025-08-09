@@ -1,0 +1,12 @@
+[project]
+name = "ai-stack"
+version = "0.1.0"
+description = "Programming notes, tips, ML/AI experiments, and LLM apps"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-codeinclude-plugin>=0.2.1",
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
+    "mkdocs-material>=9.6.16",
+]
