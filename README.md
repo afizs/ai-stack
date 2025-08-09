@@ -2,7 +2,7 @@
 
 A public hub for programming notes, coding tips, ML/AI experiments, and LLM apps.
 
-## Local dev (with uv)
+## Run locally(with uv)
 
 ```bash
 uv sync                 # creates .venv and installs deps from pyproject
