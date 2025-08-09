@@ -25,23 +25,23 @@ markdown_extensions:
   - pymdownx.tabbed
 nav:
   - Home: index.md
-  - Notes: 10-notes/README.md
-  - Tips: 20-tips/README.md
-  - Snippets: 30-snippets/README.md
+  # - Notes: 10-notes/README.md
+  # - Tips: 20-tips/README.md
+  # - Snippets: 30-snippets/README.md
   - Projects:
       - Iris Classifier: projects/iris-classifier.md
-      - Agentic RAG: projects/agentic-rag.md
-  - Machine Learning:
-      - Model Zoo: 50-ml/model-zoo.md
-  - AI: 60-ai/experiments.md
-  - LLM:
-      - Concepts: 70-llm/docs/llm-concepts.md
-      - Prompt Patterns: 70-llm/prompts/patterns.md
-      - Apps: 70-llm/apps/streamlit-chat/README.md
-  - Datasets: 80-datasets/samples.md
-  - Resources:
-      - Papers: 90-resources/papers.md
-      - Bookmarks: 90-resources/bookmarks.md
+      # - Agentic RAG: projects/agentic-rag.md
+  # - Machine Learning:
+  #     - Model Zoo: 50-ml/model-zoo.md
+  # - AI: 60-ai/experiments.md
+  # - LLM:
+  #     - Concepts: 70-llm/docs/llm-concepts.md
+  #     - Prompt Patterns: 70-llm/prompts/patterns.md
+  #     - Apps: 70-llm/apps/streamlit-chat/README.md
+  # - Datasets: 80-datasets/samples.md
+  # - Resources:
+  #     - Papers: 90-resources/papers.md
+  #     - Bookmarks: 90-resources/bookmarks.md
 extra:
   social:
     - icon: fontawesome/brands/github

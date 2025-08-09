@@ -2,7 +2,7 @@
 
 Welcome! Browse notes, tips, and runnable ML/AI/LLM demos.
 
-> This site is built with **Material for MkDocs**. Code lives in `/code` on GitHub.
+> Code lives in `/code` on GitHub.
 
 ## Quick starts
 - **Notes** → bite-sized learnings
