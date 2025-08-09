@@ -1,4 +1,4 @@
-# ai-stack
+# ai-stack [WIP 🚧 🏗️ ⚠️ ]
 
 A public hub for programming notes, coding tips, ML/AI experiments, and LLM apps.
 
